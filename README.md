@@ -26,7 +26,7 @@ This project demonstrates how text can be efficiently encoded into binary form t
 5. Encode the text using the generated binary codes  
 6. Decode the binary back into the original text  
 
-#EXAMPLE
+## Example
 text=abacabad
 Min-heap of nodes:
 [a:4, b:2, c:1, d:1]
