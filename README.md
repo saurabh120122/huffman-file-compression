@@ -32,6 +32,7 @@ Min-heap of nodes:
 [a:4, b:2, c:1, d:1]
 After heapify:
 [c:1, d:1, b:2, a:4]
+         
           [abcd:8]
         /         \
      [a:4]       [bcd:4]
