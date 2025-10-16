@@ -1,0 +1,38 @@
+**Input:**  
+
+**Character Frequencies:**  
+| Character  | Frequency  |
+|------------|------------|
+| a          | 4          |
+| b          | 2          |
+| c          | 1          |
+| d          | 1          |
+
+**Generated Huffman Codes:**  
+a: 0
+b: 10
+c: 110
+d: 111
+
+**Encoded String:**  
+0100110001000111
+**Decoded String:**  
+abacabad
+
+Explanation:
+Original text length: 8 characters × 8 bits = 64 bits
+After Huffman Encoding: 17 bits
+Compression Ratio ≈ (1 - 17/64) × 100% = 73%
+
+Size before compression: 64 bits
+Size after compression: 17 bits
+Compression ratio ≈ 73%
+
+
+---
+
+## ⚙️ How to Run
+
+### 🔧 Compile
+```bash
+g++ huffman.cpp -o huffman
